@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: service-file
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  redis:
+    host: 10.68.61.35
+    password: tclplus2020
+    port: 6379
+    timeout: 500ms
+    pool:
+      min-idle: 1
+      max-idle: 8
+      max-active: 8
+server:
+  port: 8010
+
+qiniu:
+  accesskey: jEpFoFeTweZXx2rsquXj35jcrDKH67qb4zafAwJK
+  secretkey: mjAYMyWuJJjU7tMYTKYo27A4_XUt-wSEp-d0GDfI
+  public-bucket: user-business-t
+  public-hostname: http://i0.um.tcl.com
+  private-bucket: user-business-private
+  private-hostname: http://i1.um.tcl.com
+  private-uptoken-expire: 600
+
+eureka:
+  instance:
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    prefer-ip-address: true
+    
+management:
+ security:
+  enabled: false

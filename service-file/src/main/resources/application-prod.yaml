@@ -1,0 +1,32 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+  instance:
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 5
+
+hystrix:
+ command:
+   default:
+     execution:
+       timeout:
+         enabled: false
+       isolation:
+         thread:
+           timeoutInMilliseconds: 90000
+
+ribbon:
+  ReadTimeout: 90000
+  ConnectTimeout: 10000
+
+#日志文件路径定义:/tmp/log/微服务名称
+logging:
+  file:
+    path: /tmp/log/service-file
+
+#日志文件路径定义
+upload:
+  locationTemp: /tmp/upload/store/

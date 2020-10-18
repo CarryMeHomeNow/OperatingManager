@@ -1,0 +1,51 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+  instance:
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 5
+
+spring:
+  redis:
+    host: 10.68.61.35
+    port: 6379
+    password: tclplus2020
+    timeout: 500
+    pool:
+      min-idle: 1
+      max-idle: 8
+      max-active: 8
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  shardingsphere:
+    masterslave:
+      #策略(轮询)
+      load-balance-algorithm-type: round_robin
+      name: ds_ms
+      master-data-source-name: dsmaster
+      slave-data-source-names: dsslave
+    datasource:
+      names: dsmaster,dsslave
+      #主库
+      ds_master:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://10.68.61.34:3306/tclplus?autoReconnect=true&useSSL=false
+        username: admin_user
+        password: admin_user
+      #从库
+      ds_slave:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://10.68.61.34:3306/tclplus?autoReconnect=true&useSSL=false
+        username: admin_user
+        password: admin_user
+
+#日志文件路径定义:/tmp/log/微服务名称
+logging:
+  path: /tmp/log/service-version

@@ -1,0 +1,17 @@
+server:
+  port: 8005
+
+spring:
+  application:
+    name: service-points
+  profiles:
+    active: dev
+
+eureka:
+  instance:
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    prefer-ip-address: true
+
+management:
+  security:
+    enabled: false

@@ -1,0 +1,62 @@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://base-eureka-service:8000/eureka/
+  instance:
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 5
+
+
+spring:
+#  servlet:
+#    multipart:
+#        enabled: true
+#        max-file-size: 20MB # 单个文件的最大值
+#        max-request-size: 100MB # 上传文件总的最大值
+  redis:
+    host: tclplus-site-001.5bj3bo.0001.cnn1.cache.amazonaws.com.cn
+    password:
+    port: 6379
+    timeout: 500
+    pool:
+      min-idle: 1
+      max-idle: 8
+      max-active: 8
+  jpa:
+    hibernate:
+      ddl-auto: update
+  shardingsphere:
+    masterslave:
+      #策略
+      load-balance-algorithm-type: round_robin
+      name: ds_ms
+      master-data-source-name: ds-master
+      slave-data-source-names: ds-slave
+    datasource:
+      names: ds-master,ds-slave
+      #主库
+      ds-master:
+        maximum-pool-size: 10
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://tclplus-site.cluster-ro-c9e3c79k2jx5.rds.cn-north-1.amazonaws.com.cn:3306/tclplus?autoReconnect=true&useSSL=false&characterEncoding=utf8
+        username: root
+        password: TCLPlus*9988cp
+        #从库
+      ds-slave:
+        maximum-pool-size: 10
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://tclplus-site.cluster-c9e3c79k2jx5.rds.cn-north-1.amazonaws.com.cn:3306/tclplus?autoReconnect=true&useSSL=false&characterEncoding=utf8
+        username: root
+        password: TCLPlus*9988cp
+
+tclaccounnt:
+  url: https://account-dev.tcljd.com
+#日志文件路径定义:/tmp/log/微服务名称
+logging:
+  file:
+    path: /tmp/log/service-points

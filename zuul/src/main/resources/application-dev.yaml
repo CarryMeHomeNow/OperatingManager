@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    maximum-pool-size: 10
+    url: jdbc:mysql://10.68.61.34:3306/uf_cloud_router?useSSL=false&characterEncoding=utf8
+    username: admin_user
+    password: admin_user
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  redis:
+    host: 10.68.61.35
+    password: tclplus2020
+    port: 6379
+    timeout: 500
+    pool:
+      min-idle: 1
+      max-idle: 8
+      max-active: 8
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+
+
+# 统一账号系统平台
+tclaccount:
+  publickey: https://account-dev.tcljd.com/auth/common/publicKey
+

@@ -1,0 +1,66 @@
+server:
+  port: 7999
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: api-gateway
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  main:
+    allow-bean-definition-overriding: true
+eureka:
+  instance:
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    prefer-ip-address: true
+zuul:
+  host:
+    connect-timeout-millis: 5000
+    socket-timeout-millis: 120000
+  sslHostnameValidationEnabled: false
+  routes:
+    thirdpartyjoin:
+      path: /thirdparty/**
+      url: forward:/thdpj
+    local:
+      path: /zuulroute/**
+      url: forward:/router
+  sensitive-headers:
+
+ribbon:
+  ReadTimeout: 15000
+  ConnectTimeout: 5000
+
+
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 30000
+  threadpool:
+    default:
+      coreSize: 200
+      maxQueueSize: 200
+      queueSizeRejectionThreshold: 200
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          strategy: THREAD
+          semaphore:
+            maxConcurrentRequests: 1000
+          thread:
+            timeoutInMilliseconds: 30000
+
+management:
+  security:
+    enabled: false

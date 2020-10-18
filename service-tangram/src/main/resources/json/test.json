@@ -1,0 +1,508 @@
+{
+  "data": {
+    "cards": [
+      {
+        "style": {
+          "margin": [
+            "10",
+            "5",
+            "5",
+            "5"
+          ]
+        },
+        "type": "container-oneColumn",
+        "items": [
+          {
+            "textContent": "TCL服务",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "loadType": "-1",
+        "load": "",
+        "style": {},
+        "type": "container-oneColumn",
+        "items": [
+          {
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "https://"
+            },
+            "signParams": {
+              "currenPoint": "8",
+              "isTodaySign": false,
+              "currentDay": "3"
+            },
+            "vipTextParams": {
+              "vipLevel": 1,
+              "textContent": "黑金会员"
+            },
+            "type": "memberHead",
+            "ruleParams": {
+              "actionParams": {
+                "actionType": "jump",
+                "actionUrl": "https://"
+              }
+            },
+            "vipPointParams": {
+              "textContent": "34908700"
+            }
+          }
+        ]
+      },
+      {
+        "style": {},
+        "type": "container-fiveColumn",
+        "items": [
+          {
+            "textParams": {
+              "textPosition": "bottom",
+              "lineSpace": 4,
+              "textAlignment": "center",
+              "textContent": "券包",
+              "fontSize": 12.0,
+              "textColor": "#000000"
+            },
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "https://"
+            },
+            "style": {},
+            "imgParams": {
+              "imgUrl": "",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 152,
+              "imgEdgeInsets": [
+                "0",
+                "10",
+                "25",
+                "10"
+              ],
+              "imgHeight": 160
+            },
+            "type": "imageText"
+          },
+          {
+            "textParams": {
+              "textPosition": "bottom",
+              "lineSpace": 4,
+              "textAlignment": "center",
+              "textContent": "兑换",
+              "fontSize": 12.0,
+              "textColor": "#000000"
+            },
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "https://"
+            },
+            "style": {
+              "margin": [
+                "10",
+                "0",
+                "20",
+                "0"
+              ]
+            },
+            "imgParams": {
+              "imgUrl": "",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 152,
+              "imgEdgeInsets": [
+                "0",
+                "10",
+                "25",
+                "10"
+              ],
+              "imgHeight": 160
+            },
+            "type": "imageText"
+          },
+          {
+            "textParams": {
+              "textPosition": "bottom",
+              "lineSpace": 4,
+              "textAlignment": "center",
+              "textContent": "活动",
+              "fontSize": 12.0,
+              "textColor": "#000000"
+            },
+            "actionParams": {
+              "actionType": "jump",
+              "keyWords": "",
+              "actionUrl": ""
+            },
+            "style": {
+              "margin": [
+                "10",
+                "0",
+                "20",
+                "0"
+              ]
+            },
+            "imgParams": {
+              "imgUrl": "",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 152,
+              "imgEdgeInsets": [
+                "0",
+                "10",
+                "25",
+                "10"
+              ],
+              "imgHeight": 160
+            },
+            "type": "imageText"
+          },
+          {
+            "textParams": {
+              "textPosition": "bottom",
+              "lineSpace": 4,
+              "textAlignment": "center",
+              "textContent": "任务",
+              "fontSize": 12.0,
+              "textColor": "#000000"
+            },
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "",
+              "categoryName": "",
+              "categoryId": ""
+            },
+            "style": {
+              "margin": [
+                "10",
+                "0",
+                "20",
+                "0"
+              ]
+            },
+            "imgParams": {
+              "imgUrl": "",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 152,
+              "imgEdgeInsets": [
+                "0",
+                "10",
+                "25",
+                "10"
+              ],
+              "imgHeight": 160
+            },
+            "type": "imageText"
+          },
+          {
+            "textParams": {
+              "textPosition": "bottom",
+              "lineSpace": 4,
+              "textAlignment": "center",
+              "textContent": "明细",
+              "fontSize": 12.0,
+              "textColor": "#000000"
+            },
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "",
+              "categoryName": "",
+              "categoryId": ""
+            },
+            "style": {
+              "margin": [
+                "10",
+                "0",
+                "20",
+                "0"
+              ]
+            },
+            "imgParams": {
+              "imgUrl": "",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 152,
+              "imgEdgeInsets": [
+                "0",
+                "10",
+                "25",
+                "10"
+              ],
+              "imgHeight": 160
+            },
+            "type": "imageText"
+          }
+        ]
+      },
+      {
+        "style": {
+          "margin": [
+            "10",
+            "5",
+            "5",
+            "5"
+          ]
+        },
+        "type": "container-oneColumn",
+        "items": [
+          {
+            "style": {},
+            "type": "container-fourColumn",
+            "items": [
+              {
+                "badgeParams": {
+                  "textContent": "8"
+                },
+                "textParams": {
+                  "textPosition": "bottom",
+                  "lineSpace": 4,
+                  "textAlignment": "center",
+                  "textContent": "智能客服",
+                  "fontSize": 12.0,
+                  "textColor": "#000000"
+                },
+                "actionParams": {
+                  "actionType": "jump",
+                  "actionUrl": "https://"
+                },
+                "style": {},
+                "imgParams": {
+                  "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1262465040,2109549867&fm=26&gp=0.jpg",
+                  "imgPlaceHolder": "TCLPlaceHolder",
+                  "imgWidth": 152,
+                  "imgEdgeInsets": [
+                    "0",
+                    "10",
+                    "25",
+                    "10"
+                  ],
+                  "imgHeight": 160
+                },
+                "type": "imageText"
+              },
+              {
+                "textParams": {
+                  "textPosition": "bottom",
+                  "lineSpace": 4,
+                  "textAlignment": "center",
+                  "textContent": "报装保修",
+                  "fontSize": 12.0,
+                  "textColor": "#000000"
+                },
+                "actionParams": {
+                  "actionType": "jump",
+                  "actionUrl": "https://"
+                },
+                "style": {
+                  "margin": [
+                    "10",
+                    "0",
+                    "20",
+                    "0"
+                  ]
+                },
+                "imgParams": {
+                  "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1262465040,2109549867&fm=26&gp=0.jpg",
+                  "imgPlaceHolder": "TCLPlaceHolder",
+                  "imgWidth": 152,
+                  "imgEdgeInsets": [
+                    "0",
+                    "10",
+                    "25",
+                    "10"
+                  ],
+                  "imgHeight": 160
+                },
+                "type": "imageText"
+              },
+              {
+                "textParams": {
+                  "textPosition": "bottom",
+                  "lineSpace": 4,
+                  "textAlignment": "center",
+                  "textContent": "产品说明",
+                  "fontSize": 12.0,
+                  "textColor": "#000000"
+                },
+                "actionParams": {
+                  "actionType": "jump",
+                  "keyWords": "",
+                  "actionUrl": ""
+                },
+                "style": {
+                  "margin": [
+                    "10",
+                    "0",
+                    "20",
+                    "0"
+                  ]
+                },
+                "imgParams": {
+                  "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1262465040,2109549867&fm=26&gp=0.jpg",
+                  "imgPlaceHolder": "TCLPlaceHolder",
+                  "imgWidth": 152,
+                  "imgEdgeInsets": [
+                    "0",
+                    "10",
+                    "25",
+                    "10"
+                  ],
+                  "imgHeight": 160
+                },
+                "type": "imageText"
+              },
+              {
+                "textParams": {
+                  "textPosition": "bottom",
+                  "lineSpace": 4,
+                  "textAlignment": "center",
+                  "textContent": "报修进度",
+                  "fontSize": 12.0,
+                  "textColor": "#000000"
+                },
+                "actionParams": {
+                  "actionType": "jump",
+                  "actionUrl": "",
+                  "categoryName": "",
+                  "categoryId": ""
+                },
+                "style": {
+                  "margin": [
+                    "10",
+                    "0",
+                    "20",
+                    "0"
+                  ]
+                },
+                "imgParams": {
+                  "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1262465040,2109549867&fm=26&gp=0.jpg",
+                  "imgPlaceHolder": "TCLPlaceHolder",
+                  "imgWidth": 152,
+                  "imgEdgeInsets": [
+                    "0",
+                    "10",
+                    "25",
+                    "10"
+                  ],
+                  "imgHeight": 160
+                },
+                "type": "imageText"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "style": {
+          "bgColor": "#ffffff",
+          "sticky": "start"
+        },
+        "type": "container-sticky",
+        "items": [
+          {
+            "type": "tab",
+            "tabContents": [
+              {
+                "defaultColor": "#999999",
+                "titleFontSize": 15.0,
+                "actionParams": {
+                  "actionType": "update",
+                  "actionUrl": "/get..."
+                },
+                "titleContent": "精选",
+                "subTitleFontSize": 10.0,
+                "selectedColor": "#CC0000",
+                "subtitleContent": "为你推荐"
+              },
+              {
+                "defaultColor": "#999999",
+                "redPoint": "3",
+                "titleFontSize": 15.0,
+                "actionParams": {
+                  "actionType": "update",
+                  "actionUrl": "/get..."
+                },
+                "titleContent": "智能生活",
+                "selectedColor": "#CC0000",
+                "subtitleContent": "全屋定制"
+              },
+              {
+                "defaultColor": "#999999",
+                "titleFontSize": 15.0,
+                "actionParams": {
+                  "actionType": "update",
+                  "actionUrl": "/get..."
+                },
+                "titleContent": "最新活动",
+                "selectedColor": "#CC0000",
+                "subtitleContent": "玩的开心"
+              },
+              {
+                "defaultColor": "#999999",
+                "titleFontSize": 15.0,
+                "actionParams": {
+                  "actionType": "update",
+                  "actionUrl": "/get..."
+                },
+                "titleContent": "新品上架",
+                "selectedColor": "#CC0000",
+                "subtitleContent": "最新最潮"
+              }
+            ],
+            "selectedIndex": "0"
+          }
+        ]
+      },
+      {
+        "loadType": "1",
+        "load": "/mock/408/getGoods",
+        "style": {
+          "margin": [
+            "5",
+            "5",
+            "5",
+            "5"
+          ]
+        },
+        "id": "commodity_card",
+        "type": "container-twoColumn",
+        "items": [
+          {
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "...",
+              "commodityId": "1234556s"
+            },
+            "titleParams": {
+              "lineSpace": 4,
+              "textAlignment": "left",
+              "textContent": "重磅来袭，开启竖屏时代 TCL首款可旋转",
+              "fontSize": 15.0,
+              "textColor": "#000000"
+            },
+            "style": {},
+            "imgParams": {
+              "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595852698740&di=23f48f89ea47f6dfa0b9a7137d3c0fca&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinakd20200727s%2F108%2Fw581h327%2F20200727%2F2761-iwxpesx2833793.png",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 581,
+              "smallIcon": "https://",
+              "imgHeight": 327
+            },
+            "type": "timeline",
+            "readCount": {
+              "lineSpace": 4,
+              "textAlignment": "left",
+              "textContent": "2268",
+              "fontSize": 15.0,
+              "textColor": "#000000"
+            },
+            "tips": [
+              {
+                "tipColor": "#CC3300",
+                "tip": "广告",
+                "fontSize": 11
+              }
+            ],
+            "cornerRadius": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,805 @@
+{
+    "cards": [
+      {
+        "type": "container-oneColumn",
+        "items": [
+          {
+            "type": "imageText",
+            "style": {
+              "margin": [
+                "33",
+                "98",
+                "28",
+                "98"
+              ]
+            },
+            "imgParams": {
+              "imgUrl": "http://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 180,
+              "imgHeight": 110,
+              "imgEdgeInsets": [
+                "0",
+                "0",
+                "33",
+                "0"
+              ]
+            },
+            "textParams": {
+              "textContent": "没有搜索到相关信息哦~",
+              "textPosition": "bottom",
+              "textAlignment": "center",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            }
+          },
+          {
+            "type": "text",
+            "style": {
+              "margin": [
+                "14",
+                "0",
+                "14",
+                "0"
+              ]
+            },
+            "textContent": "爆款推荐",
+            "textColor": "#333333",
+            "fontSize": 16,
+            "lineSpace": 18,
+            "textAlignment": "center"
+          }
+        ]
+      },
+      {
+        "type": "container-twoColumn",
+        "id": "card6",
+        "load": "/mock/414/commodityByPageGrid",
+        "loadType": "1",
+        "style": {
+          "bgColor": "#FFFFFF",
+          "padding": [
+            "5",
+            "5",
+            "5",
+            "5"
+          ]
+        },
+        "items": [
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447af4160a154a67e8b00a.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 120,
+              "imgHeight": 120
+            },
+            "titleParams": {
+              "textContent": "电视1",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "8888",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "9999",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          },
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447af4160a154a67e8b00a.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 172,
+              "imgHeight": 172
+            },
+            "titleParams": {
+              "textContent": "电视2",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "7777",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "8888",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          },
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447b84160a154a67e93e17.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 172,
+              "imgHeight": 172
+            },
+            "titleParams": {
+              "textContent": "电视3",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "9999",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "10000",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          },
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447b84160a154a67e93e17.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 172,
+              "imgHeight": 172
+            },
+            "titleParams": {
+              "textContent": "电视4",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "6666",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "7777",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          },
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447ba4160a154a67e95fc4.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 172,
+              "imgHeight": 172
+            },
+            "titleParams": {
+              "textContent": "电视5",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "4444",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "6666",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          },
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447ba4160a154a67e95fc4.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 172,
+              "imgHeight": 172
+            },
+            "titleParams": {
+              "textContent": "电视6",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "3434",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "8787",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          },
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447af4160a154a67e8b00a.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 172,
+              "imgHeight": 172
+            },
+            "titleParams": {
+              "textContent": "电视1",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "8888",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "9999",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          },
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447af4160a154a67e8b00a.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 172,
+              "imgHeight": 172
+            },
+            "titleParams": {
+              "textContent": "电视2",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "7777",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "8888",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          },
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447b84160a154a67e93e17.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 172,
+              "imgHeight": 172
+            },
+            "titleParams": {
+              "textContent": "电视3",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "9999",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "10000",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          },
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447b84160a154a67e93e17.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 172,
+              "imgHeight": 172
+            },
+            "titleParams": {
+              "textContent": "电视4",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "6666",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "7777",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          },
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447ba4160a154a67e95fc4.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 172,
+              "imgHeight": 172
+            },
+            "titleParams": {
+              "textContent": "电视5",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "4444",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "6666",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          },
+          {
+            "type": "commodityGrid",
+            "cornerRadius": "4",
+            "style": {
+              "bgColor": "#ffffff",
+              "margin": [
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            },
+            "commodityType": "grid",
+            "imgParams": {
+              "imgUrl": "https://pic.downk.cc/item/5f447ba4160a154a67e95fc4.png",
+              "smallIcon": "https://",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 172,
+              "imgHeight": 172
+            },
+            "titleParams": {
+              "textContent": "电视6",
+              "textAlignment": "left",
+              "textColor": "#333333",
+              "fontSize": 14,
+              "lineSpace": 4
+            },
+            "subtitleParams": {
+              "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+              "textAlignment": "left",
+              "textColor": "#999999",
+              "fontSize": 12,
+              "lineSpace": 4
+            },
+            "currentPriceParams": {
+              "textContent": "3434",
+              "textColor": "#BF1111",
+              "fontSize": 20
+            },
+            "originalPriceParams": {
+              "textContent": "8787",
+              "textColor": "#999999",
+              "fontSize": 10
+            },
+            "tips": [
+              {
+                "tip": "限时特价",
+                "tipColor": "#CC3300",
+                "fontSize": 11
+              },
+              {
+                "tip": "满2000减200",
+                "tipColor": "#33CCCC",
+                "fontSize": 11
+              }
+            ],
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+            }
+          }
+        ]
+      }
+    ]
+}

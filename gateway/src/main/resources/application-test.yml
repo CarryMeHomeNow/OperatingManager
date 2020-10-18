@@ -1,0 +1,46 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://base-eureka-service:8000/eureka/
+  instance:
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 5
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://tclplus-site.cluster-ro-c9e3c79k2jx5.rds.cn-north-1.amazonaws.com.cn:3306/tclplus?useSSL=false
+    username: root
+    password: TCLPlus*9988cp
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  redis:
+    host: tclplus-site-001.5bj3bo.0001.cnn1.cache.amazonaws.com.cn
+    password:
+    port: 6379
+    timeout: 500ms
+    pool:
+      min-idle: 1
+      max-idle: 8
+      max-active: 8
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          strategy: SEMAPHORE  #加上这个就可以获取到HttpServletRequest
+#          thread:
+#            timeoutInMilliseconds: 10000
+
+
+
+
+
+
+
+

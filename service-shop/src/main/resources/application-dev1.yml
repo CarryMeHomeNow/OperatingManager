@@ -1,0 +1,31 @@
+#eureka:
+#  client:
+#    service-url:
+#     defaultZone: http://localhost:8000/eureka/
+# instance:
+#    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+#    prefer-ip-address: true
+#    lease-renewal-interval-in-seconds: 3
+#    lease-expiration-duration-in-seconds: 5
+
+spring:
+  datasource:
+    url: jdbc:mysql://10.68.61.34:3306/tclplus?useSSL=false
+    username: admin_content
+    password: admin_content
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+  redis:
+    host: 10.68.61.35
+    password: tclplus2020
+    port: 6379
+    timeout: 500
+    pool:
+      min-idle: 1
+      max-idle: 8
+      max-active: 8
+
+#日志文件路径定义:/tmp/log/微服务名称
+logging:
+  path: /tmp/log/service-shop

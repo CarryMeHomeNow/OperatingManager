@@ -1,0 +1,736 @@
+{
+  "cards": [
+    {
+      "type": "container-oneColumn",
+      "id": "service_1",
+      "style": {
+        "padding": [
+          0,
+          12,
+          0,
+          12
+        ]
+      },
+      "items": [
+        {
+          "type": "text",
+          "textContent": "TCL服务",
+          "textAlignment": "left",
+          "textColor": "#333333",
+          "fontSize": 22
+        }
+      ]
+    },
+    {
+      "type": "container-oneColumn",
+      "id": "service_2",
+      "loadType": "-1",
+      "load": "",
+      "style": {
+        "margin": [
+          5,
+          10,
+          5,
+          10
+        ]
+      },
+      "items": [
+        {
+          "type": "memberHead",
+          "vipTextParams": {
+            "textContent": "普通会员",
+            "vipLevel": 0
+          },
+          "vipPointParams": {
+            "textContent": "66668888"
+          },
+          "signParams": {
+            "currentDay": "3",
+            "currenPoint": "8",
+            "isTodaySign": false
+          },
+          "ruleParams": {
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "https://"
+            }
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "https://"
+          }
+        }
+      ]
+    },
+    {
+      "type": "container-fiveColumn",
+      "id": "service_3",
+      "style": {
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "items": [
+        {
+          "type": "imageText",
+          "style": {
+            "margin": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "",
+            "imgPlaceHolder": "CopuonIcon",
+            "imgWidth": 32,
+            "imgHeight": 32,
+            "imgEdgeInsets": [
+              20,
+              20,
+              20,
+              20
+            ]
+          },
+          "textParams": {
+            "textContent": "券包",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#666666",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "https://"
+          }
+        },
+        {
+          "type": "imageText",
+          "style": {
+            "margin": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "",
+            "imgPlaceHolder": "ExchangeIcon",
+            "imgWidth": 32,
+            "imgHeight": 32,
+            "imgEdgeInsets": [
+              20,
+              20,
+              20,
+              20
+            ]
+          },
+          "textParams": {
+            "textContent": "兑换",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#666666",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "https://"
+          }
+        },
+        {
+          "type": "imageText",
+          "style": {
+            "margin": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "",
+            "imgPlaceHolder": "ActivityIcon",
+            "imgWidth": 32,
+            "imgHeight": 32,
+            "imgEdgeInsets": [
+              20,
+              20,
+              20,
+              20
+            ]
+          },
+          "textParams": {
+            "textContent": "活动",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#666666",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "",
+            "keyWords": ""
+          }
+        },
+        {
+          "type": "imageText",
+          "style": {
+            "margin": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "",
+            "imgPlaceHolder": "TaskIcon",
+            "imgWidth": 32,
+            "imgHeight": 32,
+            "imgEdgeInsets": [
+              20,
+              20,
+              20,
+              20
+            ]
+          },
+          "textParams": {
+            "textContent": "任务",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#666666",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "",
+            "categoryName": "",
+            "categoryId": ""
+          }
+        },
+        {
+          "type": "imageText",
+          "style": {
+            "margin": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "",
+            "imgPlaceHolder": "DetailIcon",
+            "imgWidth": 32,
+            "imgHeight": 32,
+            "imgEdgeInsets": [
+              20,
+              20,
+              20,
+              20
+            ]
+          },
+          "textParams": {
+            "textContent": "明细",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#666666",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "https://"
+          }
+        }
+      ]
+    },
+    {
+      "type": "container-fourColumn",
+      "id": "repaire",
+      "style": {
+        "bgColor": "#FFFFFF",
+        "margin": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "bgImgUrl": "service_shadows"
+      },
+      "items": [
+        {
+          "type": "text",
+          "style": {
+            "display": "block",
+            "bgColor": "",
+            "margin": [
+              11,
+              16,
+              0,
+              16
+            ]
+          },
+          "textContent": "售后服务",
+          "textAlignment": "left",
+          "fontSize": 16
+        },
+        {
+          "type": "line",
+          "style": {
+            "display": "block",
+            "bgColor": "#e6e6e6",
+            "margin": [
+              11,
+              16,
+              0,
+              16
+            ]
+          },
+          "height": 1
+        },
+        {
+          "type": "imageText",
+          "style": {
+            "margin": [
+              0,
+              0,
+              10,
+              0
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "",
+            "imgPlaceHolder": "AiServiceIcon",
+            "imgWidth": 1,
+            "imgHeight": 1,
+            "imgEdgeInsets": [
+              10,
+              30,
+              20,
+              30
+            ]
+          },
+          "textParams": {
+            "textContent": "智能客服",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#666666",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=https://wap.service.tcl.com/web/index.php"
+          },
+          "badgeParams": {
+            "textContent": "8"
+          }
+        },
+        {
+          "type": "imageText",
+          "style": {
+            "margin": [
+              0,
+              0,
+              10,
+              0
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "",
+            "imgPlaceHolder": "RepireIcon",
+            "imgWidth": 1,
+            "imgHeight": 1,
+            "imgEdgeInsets": [
+              10,
+              30,
+              20,
+              30
+            ]
+          },
+          "textParams": {
+            "textContent": "报装保修",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#666666",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=https://service-test2.koyoo.cn/install"
+          }
+        },
+        {
+          "type": "imageText",
+          "style": {
+            "margin": [
+              0,
+              0,
+              10,
+              0
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "",
+            "imgPlaceHolder": "ProductWikiIcon",
+            "imgWidth": 1,
+            "imgHeight": 1,
+            "imgEdgeInsets": [
+              10,
+              30,
+              20,
+              30
+            ]
+          },
+          "textParams": {
+            "textContent": "产品说明",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#666666",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=https://service-test2.koyoo.cn/manual",
+            "keyWords": ""
+          }
+        },
+        {
+          "type": "imageText",
+          "style": {
+            "margin": [
+              0,
+              0,
+              10,
+              0
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "",
+            "imgPlaceHolder": "RepireProIcon",
+            "imgWidth": 1,
+            "imgHeight": 1,
+            "imgEdgeInsets": [
+              10,
+              30,
+              20,
+              30
+            ]
+          },
+          "textParams": {
+            "textContent": "报修进度",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#666666",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=https://service-test2.koyoo.cn/service-order",
+            "categoryName": "",
+            "categoryId": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "container-sticky",
+      "id": "service_5",
+      "style": {
+        "sticky": "start",
+        "bgColor": "#FFFFFF"
+      },
+      "items": [
+        {
+          "type": "tab",
+          "selectedIndex": "0",
+          "tabContents": [
+            {
+              "titleContent": "精选",
+              "subtitleContent": "为你推荐",
+              "titleFontSize": 16,
+              "subFontSize": 10,
+              "selectedColor": "#2A4AEF",
+              "defaultColor": "#333333",
+              "width": 93,
+              "actionParams": {
+                "actionType": "update",
+                "actionUrl": "/mock/411/service_6",
+                "cardId": "service_6"
+              }
+            },
+            {
+              "titleContent": "智能生活",
+              "subtitleContent": "全屋定制",
+              "width": 93,
+              "titleFontSize": 16,
+              "subFontSize": 10,
+              "redPoint": "3",
+              "selectedColor": "#2A4AEF",
+              "defaultColor": "#333333",
+              "actionParams": {
+                "actionType": "update",
+                "actionUrl": "/mock/411/service_6_2",
+                "cardId": "service_6"
+              }
+            },
+            {
+              "titleContent": "最新活动",
+              "subtitleContent": "玩的开心",
+              "width": 93,
+              "titleFontSize": 16,
+              "subFontSize": 10,
+              "selectedColor": "#2A4AEF",
+              "defaultColor": "#333333",
+              "actionParams": {
+                "actionType": "update",
+                "actionUrl": "/mock/411/service_6",
+                "cardId": "service_6"
+              }
+            },
+            {
+              "titleContent": "新品上架",
+              "subtitleContent": "最新最潮",
+              "width": 93,
+              "titleFontSize": 16,
+              "subFontSize": 10,
+              "selectedColor": "#2A4AEF",
+              "defaultColor": "#333333",
+              "actionParams": {
+                "actionType": "update",
+                "actionUrl": "/mock/411/service_6_2",
+                "cardId": "service_6"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container-twoColumn",
+      "id": "service_6",
+      "style": {
+        "margin": [
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "items": [
+        {
+          "type": "timeline",
+          "cornerRadius": "10",
+          "style": {
+            "bgColor": "",
+            "margin": [
+              5,
+              5,
+              5,
+              5
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595852698740&di=23f48f89ea47f6dfa0b9a7137d3c0fca&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinakd20200727s%2F108%2Fw581h327%2F20200727%2F2761-iwxpesx2833793.png",
+            "smallIcon": "small_icon_new",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 1,
+            "imgHeight": 1
+          },
+          "titleParams": {
+            "textContent": "重磅来袭，开启竖屏时代 TCL首款可旋转",
+            "textAlignment": "left",
+            "textColor": "#000000",
+            "fontSize": 12
+          },
+          "readCount": {
+            "textContent": "2268",
+            "textAlignment": "left",
+            "textColor": "#ffffff",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "tips": "ad",
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "...",
+            "commodityId": "1234556s"
+          }
+        },
+        {
+          "type": "timeline",
+          "cornerRadius": "10",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              5,
+              5,
+              5,
+              5
+            ]
+          },
+          "commodityType": "list",
+          "imgParams": {
+            "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595852698740&di=23f48f89ea47f6dfa0b9a7137d3c0fca&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinakd20200727s%2F108%2Fw581h327%2F20200727%2F2761-iwxpesx2833793.png",
+            "smallIcon": "small_icon_new",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 1,
+            "imgHeight": 1
+          },
+          "titleParams": {
+            "textContent": "重磅来袭，开启竖屏时代 TCL首款可旋转",
+            "textAlignment": "left",
+            "textColor": "#000000",
+            "fontSize": 12
+          },
+          "readCount": {
+            "textContent": "2268",
+            "textAlignment": "left",
+            "textColor": "#ffffff",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "tips": "ad",
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "...",
+            "commodityId": "1234556s"
+          }
+        },
+        {
+          "type": "timeline",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              5,
+              5,
+              5,
+              5
+            ]
+          },
+          "commodityType": "list",
+          "imgParams": {
+            "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595852698740&di=23f48f89ea47f6dfa0b9a7137d3c0fca&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinakd20200727s%2F108%2Fw581h327%2F20200727%2F2761-iwxpesx2833793.png",
+            "smallIcon": "small_icon_new",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 1,
+            "imgHeight": 1
+          },
+          "titleParams": {
+            "textContent": "重磅来袭，开启竖屏时代 TCL首款可旋转",
+            "textAlignment": "left",
+            "textColor": "#000000",
+            "fontSize": 12
+          },
+          "readCount": {
+            "textContent": "2268",
+            "textAlignment": "left",
+            "textColor": "#ffffff",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "tips": "ad",
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "...",
+            "commodityId": "1234556s"
+          }
+        },
+        {
+          "type": "timeline",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              5,
+              5,
+              5,
+              5
+            ]
+          },
+          "commodityType": "list",
+          "imgParams": {
+            "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595852698740&di=23f48f89ea47f6dfa0b9a7137d3c0fca&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinakd20200727s%2F108%2Fw581h327%2F20200727%2F2761-iwxpesx2833793.png",
+            "smallIcon": "small_icon_new",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 1,
+            "imgHeight": 1
+          },
+          "titleParams": {
+            "textContent": "重磅来袭，开启竖屏时代 TCL首款可旋转",
+            "textAlignment": "left",
+            "textColor": "#000000",
+            "fontSize": 12
+          },
+          "readCount": {
+            "textContent": "2268",
+            "textAlignment": "left",
+            "textColor": "#ffffff",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "tips": "ad",
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "...",
+            "commodityId": "1234556s"
+          }
+        },
+        {
+          "type": "timeline",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              5,
+              5,
+              5,
+              5
+            ]
+          },
+          "commodityType": "list",
+          "imgParams": {
+            "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595852698740&di=23f48f89ea47f6dfa0b9a7137d3c0fca&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinakd20200727s%2F108%2Fw581h327%2F20200727%2F2761-iwxpesx2833793.png",
+            "smallIcon": "small_icon_new",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 1,
+            "imgHeight": 1
+          },
+          "titleParams": {
+            "textContent": "重磅来袭，开启竖sssssss屏时代 TCL首款可旋转",
+            "textAlignment": "left",
+            "textColor": "#000000",
+            "fontSize": 12
+          },
+          "readCount": {
+            "textContent": "2268",
+            "textAlignment": "left",
+            "textColor": "#ffffff",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "tips": "ad",
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "...",
+            "commodityId": "1234556s"
+          }
+        }
+      ]
+    }
+  ]
+}

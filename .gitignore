@@ -1,0 +1,10 @@
+.idea
+*.iml
+target/*
+**/target/*
+.project
+.settings/
+.classpath
+*/.gitignore
+logFile_IS_UNDEFINED
+**/logFile_IS_UNDEFINED/*

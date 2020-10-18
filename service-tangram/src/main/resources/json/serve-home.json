@@ -1,0 +1,518 @@
+{
+  "data": {
+    "cards": [
+
+      {
+        "type": "container-oneColumn",
+        "style": {
+          "margin": [
+            "10",
+            "5",
+            "5",
+            "5"
+          ]
+        },
+        "items": [{
+          "type": "text",
+          "textContent": "TCL服务"
+        }]
+      },
+
+      {
+        "type": "container-oneColumn",
+        "loadType":"-1",
+        "load":"",
+        "style": {
+        },
+        "items": [{
+          "type": "memberHead",
+
+          "vipTextParams": {
+            "textContent": "黑金会员",
+            "vipLevel": 1
+          },
+
+          "vipPointParams": {
+            "textContent": "34908700"
+          },
+
+          "signParams": {
+            "currentDay": "3",
+            "currenPoint": "8",
+            "isTodaySign": false
+          },
+
+          "ruleParams": {
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "https://"
+            }
+          },
+
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "https://"
+          }
+        }]
+      },
+
+      {
+        "type": "container-fiveColumn",
+        "style": {
+        },
+        "items": [{
+          "type": "imageText",
+          "style": {
+          },
+          "imgParams": {
+            "imgUrl": "",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 152,
+            "imgHeight": 160,
+            "imgEdgeInsets": [
+              "0",
+              "10",
+              "25",
+              "10"
+            ]
+          },
+          "textParams": {
+            "textContent": "券包",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#000000",
+            "fontSize": 12.0,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "https://"
+          }
+        },
+          {
+            "type": "imageText",
+            "style": {
+              "margin": [
+                "10",
+                "0",
+                "20",
+                "0"
+              ]
+            },
+            "imgParams": {
+              "imgUrl": "",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 152,
+              "imgHeight": 160,
+              "imgEdgeInsets": [
+                "0",
+                "10",
+                "25",
+                "10"
+              ]
+            },
+            "textParams": {
+              "textContent": "兑换",
+              "textPosition": "bottom",
+              "textAlignment": "center",
+              "textColor": "#000000",
+              "fontSize": 12.0,
+              "lineSpace": 4
+            },
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "https://"
+            }
+          },
+          {
+            "type": "imageText",
+            "style": {
+              "margin": [
+                "10",
+                "0",
+                "20",
+                "0"
+              ]
+            },
+            "imgParams": {
+              "imgUrl": "",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 152,
+              "imgHeight": 160,
+              "imgEdgeInsets": [
+                "0",
+                "10",
+                "25",
+                "10"
+              ]
+            },
+            "textParams": {
+              "textContent": "活动",
+              "textPosition": "bottom",
+              "textAlignment": "center",
+              "textColor": "#000000",
+              "fontSize": 12.0,
+              "lineSpace": 4
+            },
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "",
+              "keyWords": ""
+            }
+          },
+          {
+            "type": "imageText",
+            "style": {
+              "margin": [
+                "10",
+                "0",
+                "20",
+                "0"
+              ]
+            },
+            "imgParams": {
+              "imgUrl": "",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 152,
+              "imgHeight": 160,
+              "imgEdgeInsets": [
+                "0",
+                "10",
+                "25",
+                "10"
+              ]
+            },
+            "textParams": {
+              "textContent": "任务",
+              "textPosition": "bottom",
+              "textAlignment": "center",
+              "textColor": "#000000",
+              "fontSize": 12.0,
+              "lineSpace": 4
+            },
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "",
+              "categoryName": "",
+              "categoryId": ""
+            }
+          },
+          {
+            "type": "imageText",
+            "style": {
+              "margin": [
+                "10",
+                "0",
+                "20",
+                "0"
+              ]
+            },
+            "imgParams": {
+              "imgUrl": "",
+              "imgPlaceHolder": "TCLPlaceHolder",
+              "imgWidth": 152,
+              "imgHeight": 160,
+              "imgEdgeInsets": [
+                "0",
+                "10",
+                "25",
+                "10"
+              ]
+            },
+            "textParams": {
+              "textContent": "明细",
+              "textPosition": "bottom",
+              "textAlignment": "center",
+              "textColor": "#000000",
+              "fontSize": 12.0,
+              "lineSpace": 4
+            },
+            "actionParams": {
+              "actionType": "jump",
+              "actionUrl": "",
+              "categoryName": "",
+              "categoryId": ""
+            }
+          }
+        ]
+      },
+
+      {
+        "type": "container-oneColumn",
+        "style": {
+          "margin": [
+            "10",
+            "5",
+            "5",
+            "5"
+          ]
+        },
+        "items": [
+
+          {
+            "type": "container-fourColumn",
+            "style": {
+            },
+            "items": [{
+              "type": "imageText",
+              "style": {
+              },
+              "imgParams": {
+                "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1262465040,2109549867&fm=26&gp=0.jpg",
+                "imgPlaceHolder": "TCLPlaceHolder",
+                "imgWidth": 152,
+                "imgHeight": 160,
+                "imgEdgeInsets": [
+                  "0",
+                  "10",
+                  "25",
+                  "10"
+                ]
+              },
+              "textParams": {
+                "textContent": "智能客服",
+                "textPosition": "bottom",
+                "textAlignment": "center",
+                "textColor": "#000000",
+                "fontSize": 12.0,
+                "lineSpace": 4
+              },
+              "actionParams": {
+                "actionType": "jump",
+                "actionUrl": "https://"
+              },
+
+              "badgeParams": {
+                "textContent": "8"
+              }
+
+            },
+              {
+                "type": "imageText",
+                "style": {
+                  "margin": [
+                    "10",
+                    "0",
+                    "20",
+                    "0"
+                  ]
+                },
+                "imgParams": {
+                  "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1262465040,2109549867&fm=26&gp=0.jpg",
+                  "imgPlaceHolder": "TCLPlaceHolder",
+                  "imgWidth": 152,
+                  "imgHeight": 160,
+                  "imgEdgeInsets": [
+                    "0",
+                    "10",
+                    "25",
+                    "10"
+                  ]
+                },
+                "textParams": {
+                  "textContent": "报装保修",
+                  "textPosition": "bottom",
+                  "textAlignment": "center",
+                  "textColor": "#000000",
+                  "fontSize": 12.0,
+                  "lineSpace": 4
+                },
+                "actionParams": {
+                  "actionType": "jump",
+                  "actionUrl": "https://"
+                }
+              },
+              {
+                "type": "imageText",
+                "style": {
+                  "margin": [
+                    "10",
+                    "0",
+                    "20",
+                    "0"
+                  ]
+                },
+                "imgParams": {
+                  "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1262465040,2109549867&fm=26&gp=0.jpg",
+                  "imgPlaceHolder": "TCLPlaceHolder",
+                  "imgWidth": 152,
+                  "imgHeight": 160,
+                  "imgEdgeInsets": [
+                    "0",
+                    "10",
+                    "25",
+                    "10"
+                  ]
+                },
+                "textParams": {
+                  "textContent": "产品说明",
+                  "textPosition": "bottom",
+                  "textAlignment": "center",
+                  "textColor": "#000000",
+                  "fontSize": 12.0,
+                  "lineSpace": 4
+                },
+                "actionParams": {
+                  "actionType": "jump",
+                  "actionUrl": "",
+                  "keyWords": ""
+                }
+              },
+              {
+                "type": "imageText",
+                "style": {
+                  "margin": [
+                    "10",
+                    "0",
+                    "20",
+                    "0"
+                  ]
+                },
+                "imgParams": {
+                  "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1262465040,2109549867&fm=26&gp=0.jpg",
+                  "imgPlaceHolder": "TCLPlaceHolder",
+                  "imgWidth": 152,
+                  "imgHeight": 160,
+                  "imgEdgeInsets": [
+                    "0",
+                    "10",
+                    "25",
+                    "10"
+                  ]
+                },
+                "textParams": {
+                  "textContent": "报修进度",
+                  "textPosition": "bottom",
+                  "textAlignment": "center",
+                  "textColor": "#000000",
+                  "fontSize": 12.0,
+                  "lineSpace": 4
+                },
+                "actionParams": {
+                  "actionType": "jump",
+                  "actionUrl": "",
+                  "categoryName": "",
+                  "categoryId": ""
+                }
+              }
+
+            ]
+          }
+
+        ]
+      },
+
+      {
+        "type": "container-sticky",
+        "style": {
+          "sticky": "start",
+          "bgColor": "#ffffff"
+        },
+        "items": [{
+          "type": "tab",
+          "selectedIndex": "0",
+          "tabContents": [{
+            "titleContent": "精选",
+            "subtitleContent": "为你推荐",
+            "titleFontSize": 15.0,
+            "subTitleFontSize": 10.0,
+            "selectedColor": "#CC0000",
+            "defaultColor": "#999999",
+            "actionParams": {
+              "actionType": "update",
+              "actionUrl": "/get..."
+            }
+          },
+            {
+              "titleContent": "智能生活",
+              "subtitleContent": "全屋定制",
+              "titleFontSize": 15.0,
+              "redPoint": "3",
+              "selectedColor": "#CC0000",
+              "defaultColor": "#999999",
+              "actionParams": {
+                "actionType": "update",
+                "actionUrl": "/get..."
+              }
+            },
+            {
+              "titleContent": "最新活动",
+              "subtitleContent": "玩的开心",
+              "titleFontSize": 15.0,
+              "selectedColor": "#CC0000",
+              "defaultColor": "#999999",
+              "actionParams": {
+                "actionType": "update",
+                "actionUrl": "/get..."
+              }
+            },
+            {
+              "titleContent": "新品上架",
+              "subtitleContent": "最新最潮",
+              "titleFontSize": 15.0,
+              "selectedColor": "#CC0000",
+              "defaultColor": "#999999",
+              "actionParams": {
+                "actionType": "update",
+                "actionUrl": "/get..."
+              }
+            }
+          ]
+        }]
+      },
+
+      {
+        "type": "container-twoColumn",
+        "id": "commodity_card",
+        "load": "/mock/408/getGoods",
+        "loadType": "1",
+        "style": {
+          "margin": [
+            "5",
+            "5",
+            "5",
+            "5"
+          ]
+        },
+        "items": [{
+          "type": "timeline",
+          "cornerRadius": "4",
+          "style": {
+          },
+
+          "imgParams": {
+            "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595852698740&di=23f48f89ea47f6dfa0b9a7137d3c0fca&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinakd20200727s%2F108%2Fw581h327%2F20200727%2F2761-iwxpesx2833793.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 581,
+            "imgHeight": 327
+          },
+          "titleParams": {
+            "textContent": "重磅来袭，开启竖屏时代 TCL首款可旋转",
+            "textAlignment": "left",
+            "textColor": "#000000",
+            "fontSize": 15.0,
+            "lineSpace": 4
+          },
+          "readCount": {
+            "textContent": "2268",
+            "textAlignment": "left",
+            "textColor": "#000000",
+            "fontSize": 15.0,
+            "lineSpace": 4
+          },
+          "tips": [{
+            "tip": "广告",
+            "tipColor": "#CC3300",
+            "fontSize": 11
+          }],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "...",
+            "commodityId": "1234556s"
+          }
+        }]
+      }
+    ]
+  }
+}

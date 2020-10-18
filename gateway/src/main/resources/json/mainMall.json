@@ -1,0 +1,1522 @@
+{
+  "cards": [
+    {
+      "type": "container-banner",
+      "id": "card1",
+      "style": {
+        "indicatorRadius": "3",
+        "indicatorPosition": "inside",
+        "infinite": "true",
+        "autoScroll": "3000",
+        "defaultIndicatorColor": "#333333",
+        "indicatorColor": "#FFFFFF",
+        "hasIndicator": "true",
+        "padding": [
+          15,
+          0,
+          0,
+          0
+        ]
+      },
+      "items": [
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              0,
+              10,
+              0,
+              10
+            ]
+          },
+          "cornerRadius": "10",
+          "id": "card1_item0",
+          "imgUrl": "https://pic.downk.cc/item/5f4473b5160a154a67e152c5.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 352,
+          "imgHeight": 160,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              0,
+              10,
+              0,
+              10
+            ]
+          },
+          "cornerRadius": "10",
+          "id": "card1_item1",
+          "imgUrl": "https://pic.downk.cc/item/5f4473b5160a154a67e152c5.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 352,
+          "imgHeight": 160,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              0,
+              10,
+              0,
+              10
+            ]
+          },
+          "cornerRadius": "10",
+          "id": "card1_item2",
+          "imgUrl": "https://pic.downk.cc/item/5f4473b5160a154a67e152c5.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 352,
+          "imgHeight": 160,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              0,
+              10,
+              0,
+              10
+            ]
+          },
+          "cornerRadius": "10",
+          "id": "card1_item3",
+          "imgUrl": "https://pic.downk.cc/item/5f4473b5160a154a67e152c5.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 352,
+          "imgHeight": 160,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              0,
+              10,
+              0,
+              10
+            ]
+          },
+          "cornerRadius": "10",
+          "id": "card1_item4",
+          "imgUrl": "https://pic.downk.cc/item/5f4473b5160a154a67e152c5.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 352,
+          "imgHeight": 160,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        }
+      ]
+    },
+    {
+      "type": "container-fiveColumn",
+      "id": "card2",
+      "style": {
+        "bgColor": "#FFFFFF",
+        "padding": [
+          15,
+          0,
+          0,
+          0
+        ]
+      },
+      "items": [
+        {
+          "type": "imageText",
+          "id": "card2_item0",
+          "style": {
+            "margin": [
+              "10",
+              "0",
+              "20",
+              "0"
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f40ecec160a154a679476a7.png",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 50,
+            "imgHeight": 50,
+            "imgEdgeInsets": [
+              "0",
+              "10",
+              "25",
+              "10"
+            ]
+          },
+          "textParams": {
+            "textContent": "精选",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#333333",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "imageText",
+          "id": "card2_item1",
+          "style": {
+            "margin": [
+              "10",
+              "0",
+              "20",
+              "0"
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f40ecc2160a154a67944ea5.png",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 50,
+            "imgHeight": 50,
+            "imgEdgeInsets": [
+              "0",
+              "10",
+              "25",
+              "10"
+            ]
+          },
+          "textParams": {
+            "textContent": "电视",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#333333",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://category/productList?cateGroupUuid=f889b19d2a3a4de3ae5169271db7ad6a&keyword=空调"
+          }
+        },
+        {
+          "type": "imageText",
+          "id": "card2_item2",
+          "style": {
+            "margin": [
+              "10",
+              "0",
+              "20",
+              "0"
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f40ecec160a154a679476b6.png",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 50,
+            "imgHeight": 50,
+            "imgEdgeInsets": [
+              "0",
+              "10",
+              "25",
+              "10"
+            ]
+          },
+          "textParams": {
+            "textContent": "空调",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#333333",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://category/productList?cateGroupUuid=f889b19d2a3a4de3ae5169271db7ad6a&keyword=空调"
+          }
+        },
+        {
+          "type": "imageText",
+          "id": "card2_item3",
+          "style": {
+            "margin": [
+              "10",
+              "0",
+              "20",
+              "0"
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f40ecc2160a154a67944e95.png",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 50,
+            "imgHeight": 50,
+            "imgEdgeInsets": [
+              "0",
+              "10",
+              "25",
+              "10"
+            ]
+          },
+          "textParams": {
+            "textContent": "冰箱",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#333333",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://category/productList?cateGroupUuid=f889b19d2a3a4de3ae5169271db7ad6a&keyword=冰箱"
+          }
+        },
+        {
+          "type": "imageText",
+          "id": "card2_item4",
+          "style": {
+            "margin": [
+              "10",
+              "0",
+              "20",
+              "0"
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f40ed24160a154a6794983a.png",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 50,
+            "imgHeight": 50,
+            "imgEdgeInsets": [
+              "0",
+              "10",
+              "25",
+              "10"
+            ]
+          },
+          "textParams": {
+            "textContent": "洗衣机",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#333333",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://category/productList?cateGroupUuid=f889b19d2a3a4de3ae5169271db7ad6a&keyword=洗衣机"
+          }
+        },
+        {
+          "type": "imageText",
+          "id": "card2_item5",
+          "style": {
+            "margin": [
+              "0",
+              "0",
+              "20",
+              "0"
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f40ecd8160a154a67946a6f.png",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 50,
+            "imgHeight": 50,
+            "imgEdgeInsets": [
+              "0",
+              "10",
+              "25",
+              "10"
+            ]
+          },
+          "textParams": {
+            "textContent": "秒杀",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#333333",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "imageText",
+          "id": "card2_item6",
+          "style": {
+            "margin": [
+              "0",
+              "0",
+              "20",
+              "0"
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f446114160a154a67cee3f3.png",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 50,
+            "imgHeight": 50,
+            "imgEdgeInsets": [
+              "0",
+              "10",
+              "25",
+              "10"
+            ]
+          },
+          "textParams": {
+            "textContent": "以旧换新",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#333333",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "imageText",
+          "id": "card2_item7",
+          "style": {
+            "margin": [
+              "0",
+              "0",
+              "20",
+              "0"
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f40ed0e160a154a67948aad.png",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 50,
+            "imgHeight": 50,
+            "imgEdgeInsets": [
+              "0",
+              "10",
+              "25",
+              "10"
+            ]
+          },
+          "textParams": {
+            "textContent": "智能生活",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#333333",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://category/productList?cateGroupUuid=f889b19d2a3a4de3ae5169271db7ad6a&keyword=智能生活"
+          }
+        },
+        {
+          "type": "imageText",
+          "id": "card2_item8",
+          "style": {
+            "margin": [
+              "0",
+              "0",
+              "20",
+              "0"
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f40ecec160a154a67947699.png",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 50,
+            "imgHeight": 50,
+            "imgEdgeInsets": [
+              "0",
+              "10",
+              "25",
+              "10"
+            ]
+          },
+          "textParams": {
+            "textContent": "耗材管理",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#333333",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://category/productList?cateGroupUuid=f889b19d2a3a4de3ae5169271db7ad6a&keyword=耗材管理"
+          }
+        },
+        {
+          "type": "imageText",
+          "id": "card2_item9",
+          "style": {
+            "margin": [
+              "0",
+              "0",
+              "20",
+              "0"
+            ]
+          },
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f40ecc2160a154a67944ea1.png",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 50,
+            "imgHeight": 50,
+            "imgEdgeInsets": [
+              "0",
+              "10",
+              "25",
+              "10"
+            ]
+          },
+          "textParams": {
+            "textContent": "产品分类",
+            "textPosition": "bottom",
+            "textAlignment": "center",
+            "textColor": "#333333",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://category/categoryList"
+          }
+        }
+      ]
+    },
+    {
+      "type": "container-threeColumn",
+      "id": "card3",
+      "style": {
+        "bgColor": "#F4F4F5",
+        "padding": [
+          "10",
+          "6",
+          "10",
+          "6"
+        ]
+      },
+      "items": [
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              "6",
+              "6",
+              "0",
+              "6"
+            ]
+          },
+          "cornerRadius": "4",
+          "imgUrl": "https://pic.downk.cc/item/5f40ed0c160a154a679489eb.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 109,
+          "imgHeight": 140,
+          "actionParams": {
+            "actionUrl": "https://",
+            "actionType": "jump"
+          }
+        },
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              "6",
+              "6",
+              "0",
+              "6"
+            ]
+          },
+          "cornerRadius": "4",
+          "imgUrl": "https://pic.downk.cc/item/5f447352160a154a67e0f50a.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 109,
+          "imgHeight": 140,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              "6",
+              "6",
+              "0",
+              "6"
+            ]
+          },
+          "cornerRadius": "4",
+          "imgUrl": "https://pic.downk.cc/item/5f40ed0c160a154a67948a1b.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 109,
+          "imgHeight": 140,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              "6",
+              "6",
+              "0",
+              "6"
+            ]
+          },
+          "cornerRadius": "4",
+          "imgUrl": "https://pic.downk.cc/item/5f40ed0c160a154a67948a02.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 109,
+          "imgHeight": 140,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              "6",
+              "6",
+              "0",
+              "6"
+            ]
+          },
+          "cornerRadius": "4",
+          "imgUrl": "https://pic.downk.cc/item/5f40ecec160a154a679476d1.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 109,
+          "imgHeight": 140,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              "6",
+              "6",
+              "0",
+              "6"
+            ]
+          },
+          "cornerRadius": "4",
+          "imgUrl": "https://pic.downk.cc/item/5f40ecec160a154a679476c5.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 109,
+          "imgHeight": 140,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        }
+      ]
+    },
+    {
+      "type": "container-twoColumn",
+      "id": "card4",
+      "style": {
+        "bgColor": "#F4F4F5",
+        "padding": [
+          "10",
+          "6",
+          "10",
+          "6"
+        ]
+      },
+      "items": [
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              "6",
+              "6",
+              "0",
+              "6"
+            ]
+          },
+          "cornerRadius": "4",
+          "imgUrl": "https://pic.downk.cc/item/5f44792e160a154a67e6e80a.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 173,
+          "imgHeight": 118,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        },
+        {
+          "type": "image",
+          "style": {
+            "margin": [
+              "6",
+              "6",
+              "0",
+              "6"
+            ]
+          },
+          "cornerRadius": "4",
+          "imgUrl": "https://pic.downk.cc/item/5f44797b160a154a67e736c9.png",
+          "imgPlaceHolder": "TCLPlaceHolder",
+          "imgWidth": 173,
+          "imgHeight": 118,
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://uikit/web?url=http://www.baidu.com"
+          }
+        }
+      ]
+    },
+    {
+      "type": "container-sticky",
+      "id": "card5",
+      "style": {
+        "sticky": "start",
+        "bgColor": "#ffffff"
+      },
+      "items": [
+        {
+          "type": "tab",
+          "selectedIndex": "0",
+          "tabContents": [
+            {
+              "titleContent": "精选",
+              "subtitleContent": "为你推荐",
+              "selectedColor": "#D62222",
+              "defaultColor": "#666666",
+              "actionParams": {
+                "actionType": "refresh",
+                "actionUrl": "/mock/414/commodityByTab0",
+                "cardId": "card6"
+              }
+            },
+            {
+              "titleContent": "电视",
+              "redPoint": "3",
+              "selectedColor": "#D62222",
+              "defaultColor": "#666666",
+              "actionParams": {
+                "actionType": "refresh",
+                "actionUrl": "/mock/414/commodityByTab1",
+                "cardId": "card6"
+              }
+            },
+            {
+              "titleContent": "空调",
+              "selectedColor": "#D62222",
+              "defaultColor": "#666666",
+              "actionParams": {
+                "actionType": "refresh",
+                "actionUrl": "/mock/414/commodityByTab2",
+                "cardId": "card6"
+              }
+            },
+            {
+              "titleContent": "冰箱",
+              "selectedColor": "#D62222",
+              "defaultColor": "#666666",
+              "actionParams": {
+                "actionType": "refresh",
+                "actionUrl": "/mock/414/commodityByTab0",
+                "cardId": "card6"
+              }
+            },
+            {
+              "titleContent": "洗衣机",
+              "selectedColor": "#D62222",
+              "defaultColor": "#666666",
+              "actionParams": {
+                "actionType": "refresh",
+                "actionUrl": "/mock/414/commodityByTab1",
+                "cardId": "card6"
+              }
+            },
+            {
+              "titleContent": "厨卫",
+              "selectedColor": "#D62222",
+              "defaultColor": "#666666",
+              "actionParams": {
+                "actionType": "refresh",
+                "actionUrl": "/mock/414/commodityByTab2",
+                "cardId": "card6"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container-twoColumn",
+      "id": "card6",
+      "load": "/mock/414/commodityByPageGrid",
+      "loadType": "1",
+      "style": {
+        "bgColor": "#FFFFFF",
+        "padding": [
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
+      },
+      "items": [
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447af4160a154a67e8b00a.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 120,
+            "imgHeight": 120
+          },
+          "titleParams": {
+            "textContent": "电视1",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "8888",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "9999",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        },
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447af4160a154a67e8b00a.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 172,
+            "imgHeight": 172
+          },
+          "titleParams": {
+            "textContent": "电视2",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "7777",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "8888",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        },
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447b84160a154a67e93e17.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 172,
+            "imgHeight": 172
+          },
+          "titleParams": {
+            "textContent": "电视3",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "9999",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "10000",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        },
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447b84160a154a67e93e17.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 172,
+            "imgHeight": 172
+          },
+          "titleParams": {
+            "textContent": "电视4",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "6666",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "7777",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        },
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447ba4160a154a67e95fc4.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 172,
+            "imgHeight": 172
+          },
+          "titleParams": {
+            "textContent": "电视5",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "4444",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "6666",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        },
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447ba4160a154a67e95fc4.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 172,
+            "imgHeight": 172
+          },
+          "titleParams": {
+            "textContent": "电视6",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "3434",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "8787",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        },
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447af4160a154a67e8b00a.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 172,
+            "imgHeight": 172
+          },
+          "titleParams": {
+            "textContent": "电视1",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "8888",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "9999",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        },
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447af4160a154a67e8b00a.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 172,
+            "imgHeight": 172
+          },
+          "titleParams": {
+            "textContent": "电视2",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "7777",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "8888",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        },
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447b84160a154a67e93e17.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 172,
+            "imgHeight": 172
+          },
+          "titleParams": {
+            "textContent": "电视3",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "9999",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "10000",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        },
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447b84160a154a67e93e17.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 172,
+            "imgHeight": 172
+          },
+          "titleParams": {
+            "textContent": "电视4",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "6666",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "7777",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        },
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447ba4160a154a67e95fc4.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 172,
+            "imgHeight": 172
+          },
+          "titleParams": {
+            "textContent": "电视5",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "4444",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "6666",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        },
+        {
+          "type": "commodityGrid",
+          "cornerRadius": "4",
+          "style": {
+            "bgColor": "#ffffff",
+            "margin": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          },
+          "commodityType": "grid",
+          "imgParams": {
+            "imgUrl": "https://pic.downk.cc/item/5f447ba4160a154a67e95fc4.png",
+            "smallIcon": "https://",
+            "imgPlaceHolder": "TCLPlaceHolder",
+            "imgWidth": 172,
+            "imgHeight": 172
+          },
+          "titleParams": {
+            "textContent": "电视6",
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "fontSize": 14,
+            "lineSpace": 4
+          },
+          "subtitleParams": {
+            "textContent": "生活美学 ｜ 浮雕艺术 ｜ 东方美学",
+            "textAlignment": "left",
+            "textColor": "#999999",
+            "fontSize": 12,
+            "lineSpace": 4
+          },
+          "currentPriceParams": {
+            "textContent": "3434",
+            "textColor": "#BF1111",
+            "fontSize": 20
+          },
+          "originalPriceParams": {
+            "textContent": "8787",
+            "textColor": "#999999",
+            "fontSize": 10
+          },
+          "tips": [
+            {
+              "tip": "限时特价",
+              "tipColor": "#CC3300",
+              "fontSize": 11
+            },
+            {
+              "tip": "满2000减200",
+              "tipColor": "#33CCCC",
+              "fontSize": 11
+            }
+          ],
+          "actionParams": {
+            "actionType": "jump",
+            "actionUrl": "tclplus://mall/goodsDetail?uuid=2f02211ea6ce4a16919d298f5ddd4812"
+          }
+        }
+      ]
+    }
+  ]
+}

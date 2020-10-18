@@ -1,0 +1,320 @@
+{
+  "pageInfo": {
+    "title": "TCL+app首页",
+    "description": "",
+    "backgroundColor": "#FFFFFF",
+    "imageData": null,
+    "isVisibleHeaderWidget": false,
+    "isVisibleRightWidget": false
+  },
+  "items": [
+    {
+      "type": "ImageAd",
+      "id": "64d0bda1-01bb-1598-04e0-aea128f2eb9b",
+      "data": {
+        "style": 1,
+        "gap": 0,
+        "padding": 0,
+        "list": [
+          {
+            "title": "轮播图1",
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FirzoXdhEeiQ800eVS6ybaDlQku9",
+              "width": 500,
+              "height": 375
+            },
+            "linkData": {
+              "objectValue": "6ed8ec2f0b27483ab8c2c14c47d6d446",
+              "objectLabel": "热门商品",
+              "typeValue": "ACTIVEPAGE",
+              "typeLabel": "活动页面"
+            }
+          },
+          {
+            "title": "轮播图2",
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FgjSfv-y4roiVu6siwNIZj6RoVIm",
+              "width": 500,
+              "height": 374
+            },
+            "linkData": {
+              "objectValue": "3b0e3146d92d4990bdda8869af4c1790",
+              "objectLabel": "测试空调0623",
+              "typeValue": "GOODS",
+              "typeLabel": "商品"
+            }
+          },
+          {
+            "title": "轮播图3",
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FgbyO7sYvIMTXc6VW2NtYukbsSho",
+              "width": 1280,
+              "height": 1370
+            },
+            "linkData": {
+              "objectValue": "CATEGORY",
+              "objectLabel": "分类",
+              "typeValue": "APP_PAGE",
+              "typeLabel": "应用页面"
+            }
+          }
+        ],
+        "backgroundColor": ""
+      }
+    },
+    {
+      "type": "Nav",
+      "id": "f5bd84c6-7e1a-d63c-43c1-4df2f8b7d1ed",
+      "data": {
+        "style": 0,
+        "list": [
+          {
+            "title": "导航1",
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FsKiIagALrlBfNbzJrLm1hyCfScK",
+              "width": 499,
+              "height": 308
+            },
+            "linkData": {
+              "objectValue": "CATEGORY",
+              "objectLabel": "分类",
+              "typeValue": "APP_PAGE",
+              "typeLabel": "应用页面"
+            }
+          },
+          {
+            "title": "导航2",
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FsFNOZ53rp9a7TtgpozutwQEFAXC",
+              "width": 240,
+              "height": 240
+            },
+            "linkData": {
+              "objectValue": "ae15aba47a4546d8a07764cd2ae693aa",
+              "objectLabel": "权益卡测试勿动",
+              "typeValue": "GOODS",
+              "typeLabel": "商品"
+            }
+          },
+          {
+            "title": "导航3",
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FirzoXdhEeiQ800eVS6ybaDlQku9",
+              "width": 500,
+              "height": 375
+            },
+            "linkData": {
+              "objectValue": "",
+              "objectLabel": "",
+              "typeValue": "CUSTOM",
+              "typeLabel": "外链"
+            }
+          },
+          {
+            "title": "导航4",
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FopTmM5_T6GCfZK4ir6WBYg4TM6c",
+              "width": 960,
+              "height": 960
+            },
+            "linkData": {
+              "objectValue": "",
+              "objectLabel": "",
+              "typeValue": "CUSTOM",
+              "typeLabel": "外链"
+            }
+          },
+          {
+            "title": "导航5",
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FpBSv61EfIHGgcAvEe8iWtNhHceR",
+              "width": 190,
+              "height": 190
+            },
+            "linkData": {
+              "objectValue": "",
+              "objectLabel": "",
+              "typeValue": "CUSTOM",
+              "typeLabel": "外链"
+            }
+          }
+        ],
+        "backgroundColor": "#FFFFFF",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "type": "Nav",
+      "id": "554dd358-ef06-bddc-c05b-3ce2195992cd",
+      "data": {
+        "style": 0,
+        "list": [
+          {
+            "title": "导航6",
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FmdJwnITjFi-ykRpN6ozeIBqbZG2",
+              "width": 1080,
+              "height": 648
+            },
+            "linkData": {
+              "objectValue": "",
+              "objectLabel": "",
+              "typeValue": "CUSTOM",
+              "typeLabel": "外链"
+            }
+          },
+          {
+            "title": "导航7",
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FgbyO7sYvIMTXc6VW2NtYukbsSho",
+              "width": 1280,
+              "height": 1370
+            },
+            "linkData": {
+              "objectValue": "",
+              "objectLabel": "",
+              "typeValue": "CUSTOM",
+              "typeLabel": "外链"
+            }
+          },
+          {
+            "title": "导航8",
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FgjSfv-y4roiVu6siwNIZj6RoVIm",
+              "width": 500,
+              "height": 374
+            },
+            "linkData": {
+              "objectValue": "",
+              "objectLabel": "",
+              "typeValue": "CUSTOM",
+              "typeLabel": "外链"
+            }
+          }
+        ],
+        "backgroundColor": "#FFFFFF",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "type": "Cube",
+      "id": "e618a635-21b3-8eb6-6e27-39f95cfe2a16",
+      "data": {
+        "gap": 0,
+        "padding": 0,
+        "size": 4,
+        "list": [
+          {
+            "x": 3,
+            "y": 3,
+            "w": 1,
+            "h": 1,
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FmT9vE8J7rKhVKG1vjtOG03bVY0n",
+              "width": 500,
+              "height": 501
+            },
+            "linkData": {
+              "objectValue": "",
+              "objectLabel": "",
+              "typeValue": "CUSTOM",
+              "typeLabel": "外链"
+            },
+            "title": "魔方6"
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "w": 2,
+            "h": 1,
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FmdJwnITjFi-ykRpN6ozeIBqbZG2",
+              "width": 1080,
+              "height": 648
+            },
+            "linkData": {
+              "objectValue": "566653c6473e4f069f96e9c4e0381e67",
+              "objectLabel": " 限3张全品券101减25",
+              "typeValue": "COUPON",
+              "typeLabel": "优惠券"
+            },
+            "title": "魔方5"
+          },
+          {
+            "x": 0,
+            "y": 3,
+            "w": 1,
+            "h": 1,
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FsFNOZ53rp9a7TtgpozutwQEFAXC",
+              "width": 240,
+              "height": 240
+            },
+            "linkData": {
+              "objectValue": "6ed8ec2f0b27483ab8c2c14c47d6d446",
+              "objectLabel": "热门商品",
+              "typeValue": "ACTIVEPAGE",
+              "typeLabel": "活动页面"
+            },
+            "title": "魔方4"
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "w": 2,
+            "h": 1,
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/Fl_AdYDPw-4RUSAGrSsHWBddIZ9i",
+              "width": 860,
+              "height": 360
+            },
+            "linkData": {
+              "objectValue": "724312509e8542dc8b97b5433bdee708",
+              "objectLabel": "分类",
+              "typeValue": "ACTIVEPAGE",
+              "typeLabel": "活动页面"
+            },
+            "title": "魔方3"
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "w": 2,
+            "h": 1,
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/FhybFJ-mTHDP5Kk4cRq1M5xZse6l",
+              "width": 600,
+              "height": 600
+            },
+            "linkData": {
+              "objectValue": "CATEGORY",
+              "objectLabel": "分类",
+              "typeValue": "APP_PAGE",
+              "typeLabel": "应用页面"
+            },
+            "title": "魔方2"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "w": 4,
+            "h": 2,
+            "imageData": {
+              "url": "http://f0.testpc.tclo2o.cn/Fk0LXt7PgUnVXNe3lbn0xdTU9FJu",
+              "width": 860,
+              "height": 360
+            },
+            "linkData": {
+              "objectValue": "7ca38566feaf45c6820352cd70460102",
+              "objectLabel": "测试电视0628",
+              "typeValue": "GOODS",
+              "typeLabel": "商品"
+            },
+            "title": "魔方1"
+          }
+        ],
+        "backgroundColor": "#FFFFFF"
+      }
+    }
+  ]
+}

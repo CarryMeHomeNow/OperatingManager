@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mysql://10.68.61.34:3306/uf_cloud_router?useSSL=false
+    username: admin_user
+    password: admin_user
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  redis:
+    host: 10.73.129.172
+    password: tcltest123
+    port: 6379
+    timeout: 500
+    pool:
+      min-idle: 1
+      max-idle: 8
+      max-active: 8
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+

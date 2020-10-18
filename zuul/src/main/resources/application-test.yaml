@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    maximum-pool-size: 10
+    url: jdbc:mysql://tclplus-site.cluster-ro-c9e3c79k2jx5.rds.cn-north-1.amazonaws.com.cn:3306/uf_cloud_router?useSSL=false&characterEncoding=utf8
+    username: root
+    password: TCLPlus*9988cp
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  redis:
+    host: tclplus-site-001.5bj3bo.0001.cnn1.cache.amazonaws.com.cn
+    password:
+    port: 6379
+    timeout: 500ms
+    pool:
+      min-idle: 1
+      max-idle: 8
+      max-active: 8
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://base-eureka-service:8000/eureka/
+
+
+# 统一账号系统平台
+tclaccount:
+  publickey: https://account-dev.tcljd.com/auth/common/publicKey

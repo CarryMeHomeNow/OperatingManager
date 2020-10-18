@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zuul Router Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"/>
+    <style>
+        .container, .container-fluid {
+            padding: 0;
+        }
+
+        button, input {
+            outline: none;
+        }
+
+        a {
+            text-decoration: none !important;
+            color: #ff0000;
+        }
+
+        .dn {
+            display: none;
+        }
+
+        .main-box {
+            margin-top: 10px;
+        }
+
+        .main-table {
+            margin-top: 10px;
+        }
+
+        .main-table tr {
+            min-height: 50px;
+            line-height: 50px;
+            border-top: 1px solid #f1f1f1;
+        }
+
+        .main-table tr:first-child {
+            border: none;
+        }
+
+        .main-table th {
+            /* text-align: center; */
+            padding-left: 8px;
+        }
+
+        .uneditable {
+            height: 34px;
+            padding: 6px 12px;
+            font-size: 14px;
+            border: none;
+            outline: none;
+            background: none;
+        }
+
+        .form-control {
+            border: 1px solid #ccc;
+            background: #fff;
+        }
+
+        .btn-new {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+            background-color: #ccc;
+            border: 1px solid transparent;
+            border-color: #adadad;
+            border-radius: 4px;
+            margin-left: 15px;
+        }
+
+        .input-group-btn {
+            position: relative;
+        }
+
+        .btn-import {
+            display: block;
+            width: 72px;
+            height: 35px;
+            margin-left: 15px;
+            cursor: pointer;
+            opacity: 0;
+            position: absolute;
+            top: 1px;
+            left: 162px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-box container">
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3>Control Panel</h3></div>
+        <div class="panel-body">
+            <!-- search -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control search-cont" placeholder="Search for...">
+                        <span class="input-group-btn J_btns" id="btnGroup">
+                            <button class="btn btn-default J_search" type="button">Search</button>
+                            <button class="btn-default btn-new J_new" type="button">New+</button>
+                            <button class="btn-default btn-new J_import" type="button">Import</button>
+                            <input type="file" class="btn-import J_fileImport" onchange="handleFiles(this.files)"
+                                   value="Import"/>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-striped table-bordered table-hover main-table">
+                <!-- <tr><th>ID</th><th>Path1</th><th>Path2</th><th>Authority</th></tr> -->
+                <!-- <tr>
+                    <td>
+                        <div class="input-group">
+                            <input type="text" class="uneditable" disabled="false" placeholder="ID" />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="input-group">
+                            <input type="text" class="uneditable" disabled placeholder="apiName" />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="input-group">
+                            <input type="text" class="uneditable" disabled placeholder="Path2" />
+                        </div>
+                        <td>
+                            <div class="input-group">
+                                <input type="text" class="uneditable" disabled placeholder="Authority" />
+                            </div>
+                        </td>
+                    </td>
+                </tr> -->
+            </table>
+            <div class="btn-group">
+                <button type="button" class="btn btn-default J_submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="tipsPop">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Delete Message</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Contents：</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger J_delete">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+
+        // default
+        let env = 'test';
+
+        if (location.host.indexOf("localhost") > -1) {
+            env = "dev"
+        }
+
+        const config = {
+            dev: {
+                get: "/zuulroute/get",
+                post: "/zuulroute/set"
+            },
+            test: {
+                get: "/zuulroute/get",
+                post: "/zuulroute/set"
+            }
+        };
+
+        let apiRoute = config[env];
+        let curIndex = 0;
+        window.resData = [];
+        let html = '';
+        let newIndex = 0;
+        $.ajax({
+            url: apiRoute.get,
+            type: 'GET',
+            dataType: 'JSON',
+            success: function (data) {
+                console.log(data);
+                resData = data;
+                newIndex = data.length;
+                data.forEach((item, index) => {
+                    html += template(item, index);
+                });
+                $('.main-table').html('<tr><th>ID</th><th>ApiName</th><th>Path</th><th>Authority</th><th>Operation</th></tr>' + html);
+
+                // create <a>
+                var a = document.createElement('a');
+                a.download = "路由配置";
+                a.innerHTML = 'Export';
+                a.className = 'btn-default btn-new';
+                var oDiv = document.getElementById('btnGroup');
+                oDiv.appendChild(a)
+                // create file
+                var file = new File([JSON.stringify(resData)], "路由配置.json", {type: 'application/json'});
+
+                // file to data;
+                var reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.addEventListener('load', function () {
+                    a.href = reader.result;
+                }, false);
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+
+
+        // $('.main-table').html('<tr><th>ID</th><th>ApiName</th><th>Path</th><th>Authority</th><th>Operation</th></tr>' + html);
+
+        $('.J_search').on('click', function () {
+            var val = $('.search-cont').val();
+            var searchCont = '';
+            if (val) {
+                resData.forEach((item, index) => {
+                    if (item.id.toString().indexOf(val) > -1 || item.apiName.toString().indexOf(val) > -1 || item.path.toString().indexOf(val) > -1 || item.login.toString().indexOf(val) > -1) {
+                        console.log(item);
+                        searchCont += template(item, index);
+                    }
+                });
+                $('.main-table').html('<tr><th>ID</th><th>ApiName</th><th>Path</th><th>Authority</th></tr>' + searchCont);
+            } else {
+                $('.main-table').html('<tr><th>ID</th><th>ApiName</th><th>Path</th><th>Authority</th></tr>' + html);
+            }
+        });
+
+        function template(item, index) {
+            return `
+            <tr>
+                <td class="dn">
+                    <input type="hidden" value="${index}" />
+                </td>
+                <td>
+                    <div class="input-group">
+                        <input type="text" class="uneditable id" disabled="false" placeholder="ID" value="${item.id}" />
+                    </div>
+                </td>
+                <td>
+                    <div class="input-group">
+                        <input type="text" class="uneditable apiname" disabled="false" placeholder="apiName" value="${item.apiName}" />
+                    </div>
+                </td>
+                <td>
+                    <div class="input-group">
+                        <input type="text" class="uneditable path" disabled="false" placeholder="path" value="${item.path}" />
+                    </div>
+                </td>
+                <td>
+                    <div class="input-group">
+                        <input type="text" class="uneditable login" disabled="false" placeholder="authority" value="${item.login}" />
+                    </div>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger J_deleteConfirm" data-target="#tipsPop" data-index="${index}">Delete</button>
+                </td>
+            </tr>
+        `
+        }
+
+        $('.main-table').on('click', '.input-group', function () {
+            var _this = $(this).children('input');
+            var defaultValue = _this[0].value;
+            _this.removeAttr('disabled').addClass('form-control').focus().blur(function () {
+                _this.removeClass('form-control').attr('disabled', '');
+                if (_this[0].value != defaultValue) {    //判断是否修改值
+                    // console.log(resData)
+                    var index = _this.parents('td').siblings('td.dn').find('input').val();
+                    var val = _this.val();
+                    if (_this.hasClass('id')) {
+                        resData[index].id = val;
+                    } else if (_this.hasClass('apiname')) {
+                        resData[index].apiName = val;
+                    } else if (_this.hasClass('path')) {
+                        resData[index].path = val;
+                    } else if (_this.hasClass('login')) {
+                        resData[index].login = val;
+                    }
+                } else {
+                    // console.log('未修改')
+                }
+            })
+        });
+
+        $('.J_submit').on('click', function () {
+            console.log(resData);
+            $.ajax({
+                url: apiRoute.post,
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(resData),
+                success: function (res) {
+                    console.log(res);
+                    location.reload(true);
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+            });
+        });
+
+        $('.J_new').on('click', function () {
+            let item = {
+                apiName: '',
+                id: '',
+                login: '',
+                path: ''
+            };
+            resData.push(item);
+            $('.main-table tr').eq(1).before(template(item, newIndex))
+            newIndex++;
+        });
+
+
+        // $('.J_fileImport').change(function(file){
+        //     handleFiles(file);
+        // })
+        $('.main-box').on('click', '.J_deleteConfirm', function () {
+            curIndex = $(this).data('index');
+            let delApiName = resData[curIndex].apiName;
+            $('#tipsPop').modal('show').find('.modal-body').html('<p>Message: Confirm to delete ' + delApiName + ' ? </p>')
+        })
+        $('.main-box').on('click', '.J_delete', function () {
+            $('.main-table tr').eq(curIndex).remove();
+            resData.splice(curIndex, 1);
+            $('#tipsPop').modal('hide');
+            console.log(resData)
+            $('.J_submit').click();
+        })
+
+    })
+
+    function handleFiles(files) {
+        if (files.length) {
+            var file = files[0];
+            var reader = new FileReader();
+
+            reader.addEventListener('load', function () {
+
+                console.log(JSON.stringify(resData));
+
+                resData = JSON.parse(reader.result);
+                console.log(JSON.stringify(resData));
+                $('.J_submit').click();
+            }, false);
+
+            reader.readAsText(file);
+        }
+    }
+</script>
+</body>
+</html>
